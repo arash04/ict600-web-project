@@ -1,0 +1,21 @@
+DEBUG - 2026-01-09 23:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-09 23:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-09 23:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-09 23:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-09 23:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-09 23:27:59 --> ErrorException: Undefined variable $tutors
+[Method: GET, Route: tutor]
+in APPPATH\Views\public\tutor.php on line 6.
+ 1 APPPATH\Views\public\tutor.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tutors', 'C:\\xampp 2\\htdocs\\ict600_project\\app\\Views\\public\\tutor.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp 2\\htdocs\\ict600_project\\app\\Views\\public\\tutor.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('public/tutor', [], true)
+ 5 APPPATH\Controllers\Pages.php(28): view('public/tutor')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->tutor()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp 2\\htdocs\\ict600_project\\public\\index.php')
+DEBUG - 2026-01-09 23:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
